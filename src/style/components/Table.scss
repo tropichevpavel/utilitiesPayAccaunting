@@ -1,0 +1,47 @@
+.table {
+	
+}
+
+.table tbody th {
+	display: flex;
+	justify-content: space-between;
+}
+
+.table tbody th div {
+	width: 100%;
+}
+
+.table tbody th span {
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.table td, .table th {
+	border: solid 1px black;
+}
+
+.table td {
+	min-width: 80px;
+	text-align: end;
+}
+
+.table td[contenteditable="false"] {
+	background: lightgray;
+}
+
+.table tr[draggable="false"] {
+	background: lightgray;
+}
+
+.drag {
+	background: red;
+}
+
+[draggable] th {
+	cursor: move;
+}
+
+[contenteditable] {
+	-webkit-user-select: text;
+	user-select: text;
+}

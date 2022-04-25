@@ -1,0 +1,17 @@
+
+#page-objects__object-list {
+	display: flex;
+}
+
+.object-list__card {
+	width: 200px;
+	height: 100px;
+
+	text-align: center;
+
+	cursor: pointer;
+}
+
+.object-list__card:hover {
+	background: lightblue;
+}

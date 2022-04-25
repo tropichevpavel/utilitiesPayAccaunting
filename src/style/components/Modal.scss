@@ -1,0 +1,29 @@
+
+.modal-wrapper {
+	position: fixed;
+	display: flex;
+
+	width: 100vw;
+	height: 100vh;
+
+	background: rgba(0, 0, 0, 0.35);
+}
+
+.modal {
+	// width: 500px;
+	// height: 200px;
+
+	margin: auto;
+
+	padding: 10px;
+
+	background: white;
+}
+
+.modal label {
+	font-size: 0.8em;
+}
+
+.modal input, .modal label {
+	margin: 0 10px;
+}

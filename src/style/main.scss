@@ -1,0 +1,36 @@
+
+@import './toast.scss';
+@import './components/ObjectList.scss';
+@import './components/Table.scss';
+@import './components/Modal.scss';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #EFEFF3;
+
+	width: 100vw;
+    height: 100vh;
+}
+
+#app {
+	margin: 0 auto;
+
+	width: 1200px;
+	background: white;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex.column {
+	flex-direction: column;
+}
+
+.m-t-10 {
+	margin-top: 20px;
+}

@@ -1,0 +1,23 @@
+
+#app-messages {
+	display: flex;
+	flex-direction: column;
+
+	position: fixed;
+	width: 100%;
+}
+
+#app-messages .message {
+	display: flex;
+	margin: auto;
+	padding: 10 20px;
+	background: aquamarine;
+}
+
+.message__btn-close {
+	width: 20px;
+	height: 20px;
+
+	margin: auto;
+	margin-left: 20px;
+}
